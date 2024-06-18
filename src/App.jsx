@@ -58,8 +58,8 @@ function App() {
         )}
 
         <div className="topmenu">
-          <h2>MY Todos</h2>
-          <h5>Status Filter :</h5>
+          <h3>MY Todos</h3>
+          <h6>Status Filter :</h6>
           <select
             className="status "
             name="filterStatus"

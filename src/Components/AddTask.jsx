@@ -24,7 +24,7 @@ function AddTask({ data, setData }) {
 
   return (
     <>
-      <div className="input-group ">
+      <div className="input-group flex-nowrap headform">
         <input
           type="text"
           className="form-control"

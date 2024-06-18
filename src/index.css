@@ -8,9 +8,6 @@
   color: green;
 }
 
-.headform {
-  margin: 30px 50px;
-}
 .input-group {
   padding: 20px;
   /* margin-left:; */
@@ -20,12 +17,12 @@ input {
 }
 .topmenu {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 3fr 1fr 1fr;
   /* margin-left: 20px; */
   margin-top: 50px;
   padding: 20px;
 }
-.topmenu h5 {
+.topmenu h6 {
   text-align: right;
 }
 .status {
@@ -44,13 +41,17 @@ input {
 }
 .card {
   background-color: rgb(195, 250, 195);
+  height: 100%;
 }
 .cardBtn {
   margin-left: 20px;
   margin-top: 30px;
 }
 .select-completed {
-  background-color: rgb(0, 128, 0, 0.7);
+  background-color: rgb(25, 134, 83, 0.8);
+}
+.select-notcompleted {
+  background-color: rgb(220, 53, 69, 0.8);
 }
 
 @media only screen and (max-width: 500px) {
@@ -62,5 +63,27 @@ input {
   }
   .container {
     font-size: small;
+  }
+  .topmenu {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    /* margin-left: 20px; */
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .topmenu h3 {
+    font-size: large;
+  }
+  .topmenu h6 {
+    font-size: small;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .topmenu select {
+    margin-left: -2px;
+    font-size: small;
+  }
+  .statusHead {
+    font-size: medium;
   }
 }
