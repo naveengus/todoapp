@@ -1,0 +1,66 @@
+.container {
+  margin: 10px;
+  padding: 10px;
+}
+.heading {
+  text-align: center;
+  margin-top: 20px;
+  color: green;
+}
+
+.headform {
+  margin: 30px 50px;
+}
+.input-group {
+  padding: 20px;
+  /* margin-left:; */
+}
+input {
+  margin-right: 20px;
+}
+.topmenu {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  /* margin-left: 20px; */
+  margin-top: 50px;
+  padding: 20px;
+}
+.topmenu h5 {
+  text-align: right;
+}
+.status {
+  margin-left: 30px;
+  background-color: pink;
+  text-align: center;
+  font-weight: bold;
+  font-size: medium;
+}
+.card-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-top: 30px;
+  padding: 20px;
+}
+.card {
+  background-color: rgb(195, 250, 195);
+}
+.cardBtn {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.select-completed {
+  background-color: rgb(0, 128, 0, 0.7);
+}
+
+@media only screen and (max-width: 500px) {
+  .card-boxes {
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .container {
+    font-size: small;
+  }
+}
