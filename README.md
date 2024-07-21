@@ -24,7 +24,7 @@
   - Filter Tasks: Use the filter options top of the right corner status filter to view tasks based on their status.
 
 #website
- - <a href = "https://todo-react-mode.netlify.app/">preview<\a>
+ - <a href = "https://todo-react-mode.netlify.app/">preview
 
 # Contact
   For any questions or suggestions, feel free to reach out to:
