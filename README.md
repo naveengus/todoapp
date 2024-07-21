@@ -23,7 +23,7 @@
   - Delete Tasks: Click the delete button to remove a task.
   - Filter Tasks: Use the filter options top of the right corner status filter to view tasks based on their status.
 
-#website
+# website
  - <a href = "https://todo-react-mode.netlify.app/">preview
 
 # Contact
